@@ -35,7 +35,4 @@ jobs:
         path: .\**\AppPackages\**\*.msix
         
     
-    - name: Download a Build Artifacts
-      uses: actions/upload-artifact@v3.0.1
-      with:
-        path: .\**\AppPackages\**\*.msix
+    
