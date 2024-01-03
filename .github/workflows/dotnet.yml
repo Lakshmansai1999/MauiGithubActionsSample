@@ -32,5 +32,6 @@ jobs:
       with:
         name: android-ci-build
         path: |
+          ./**/*.aab
           ./**/*.apk
 
